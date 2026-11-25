@@ -19,9 +19,9 @@ jobs:
 
       - name: Package unsigned IPA
         run: |
-          APP=$(find ~/Library/Developer/Xcode/DerivedData -name 'Cydia.app' -path '*Release-iphoneos*' | head -1)
+          APP=build/Release-iphoneos/Cydia.app
           echo "APP=$APP"
-          test -n "$APP"
+          test -d "$APP"
           mkdir -p Payload
           cp -R "$APP" Payload/
           zip -r -q Cydia-unsigned.ipa Payload
