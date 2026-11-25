@@ -60,7 +60,7 @@ class FirstViewController: UIViewController, WKNavigationDelegate {
     }
 
     // must be internal or public.
-    func update() {
+    @objc func update() {
 
         loadHomepage()
 

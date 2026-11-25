@@ -26,7 +26,7 @@ class TabView: UITabBarController {
     }
 
     // must be internal or public.
-    func update() {
+    @objc func update() {
         redDot.isHidden = true
 
         tabBar.items?[2].badgeValue = "3"
