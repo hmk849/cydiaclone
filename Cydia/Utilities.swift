@@ -15,17 +15,16 @@ let appName = "Cydia"
 // Version of this Cydia
 let cydiaVersion = "1.1.3"
 
-
-func getDeviceModel () -> String {
-    
+func getDeviceModel() -> String {
     var sysinfo = utsname()
-    uname(&sysinfo) // ignore return value
-    return NSString(bytes: &sysinfo.machine, length: Int(_SYS_NAMELEN), encoding: String.Encoding.ascii.rawValue)! as String
+    uname(&sysinfo)
+    let machine = Mirror(reflecting: sysinfo.machine).children.reduce("") { identifier, element in
+        guard let value = element.value as? Int8, value != 0 else { return identifier }
+        return identifier + String(UnicodeScalar(UInt8(value)))
+    }
+    return machine
 }
 
-
-func getSystemVersion () -> String {
-    
+func getSystemVersion() -> String {
     return UIDevice.current.systemVersion
-    
 }

@@ -21,10 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eiq-K8-7ZC">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yFM-j4-hzY">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                 <constraints>
@@ -46,7 +42,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="cSH-Ll-qc5">
                                 <rect key="frame" x="141" y="323.5" width="93" height="20"/>
                                 <subviews>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="33Y-N4-5d2">
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="33Y-N4-5d2">
                                         <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
                                     </activityIndicatorView>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
@@ -61,13 +57,9 @@
                         <color key="backgroundColor" red="0.9380459189" green="0.93676966429999997" blue="0.95832461120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="cSH-Ll-qc5" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="5l5-10-eiu"/>
-                            <constraint firstItem="Eiq-K8-7ZC" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="EcA-Tc-GyR"/>
-                            <constraint firstItem="Eiq-K8-7ZC" firstAttribute="height" secondItem="tsR-hK-woN" secondAttribute="height" id="EqH-oE-Ye1"/>
-                            <constraint firstItem="Eiq-K8-7ZC" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="Iso-co-MD9"/>
                             <constraint firstItem="yFM-j4-hzY" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="Ld1-nJ-8Me"/>
                             <constraint firstItem="yFM-j4-hzY" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="OYQ-xV-Jkr"/>
                             <constraint firstItem="yFM-j4-hzY" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" id="V3a-O6-YsD"/>
-                            <constraint firstItem="Eiq-K8-7ZC" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" id="bb4-Mg-Vvl"/>
                             <constraint firstItem="cSH-Ll-qc5" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="jRa-jW-CcN"/>
                         </constraints>
                     </view>
@@ -75,7 +67,6 @@
                     <connections>
                         <outlet property="loadingStack" destination="cSH-Ll-qc5" id="hmU-ZZ-Xvu"/>
                         <outlet property="reloadButton" destination="zmC-Wn-0d4" id="iVN-A4-8on"/>
-                        <outlet property="webView" destination="Eiq-K8-7ZC" id="4rK-WZ-0fF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
@@ -324,18 +315,9 @@
                     <tabBarItem key="tabBarItem" title="Search" image="tabbarsearch" id="IzD-wj-pFn"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="searchDisplayController" destination="RUO-ia-pZv" id="DJh-ZC-dcp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F02-SB-IHj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="RUO-ia-pZv">
-                    <connections>
-                        <outlet property="delegate" destination="gyn-4u-5tx" id="Paz-dS-E0w"/>
-                        <outlet property="searchContentsController" destination="gyn-4u-5tx" id="Hby-HS-8KC"/>
-                        <outlet property="searchResultsDataSource" destination="gyn-4u-5tx" id="RqX-fF-QiE"/>
-                        <outlet property="searchResultsDelegate" destination="gyn-4u-5tx" id="UHK-bw-5j0"/>
-                    </connections>
-                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1477.5999999999999" y="1037.6311844077961"/>
         </scene>
