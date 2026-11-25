@@ -18,6 +18,24 @@
 		513970381DCD129500A0BCD7 /* ChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513970371DCD129500A0BCD7 /* ChangesView.swift */; };
 		5139703A1DCD12D600A0BCD7 /* SourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513970391DCD12D600A0BCD7 /* SourcesView.swift */; };
 		5139703C1DCD155000A0BCD7 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5139703B1DCD155000A0BCD7 /* TabController.swift */; };
+		C65BFCC044AA208E73DEA68B /* style-f86cdff9d3d526e739afdf2d4ad8f494d10d4112.css in Resources */ = {isa = PBXBuildFile; fileRef = 09BE0F7AFFE25AB34662F40D /* style-f86cdff9d3d526e739afdf2d4ad8f494d10d4112.css */; };
+		192A56979D9053EF46B87A9B /* style-3c578a2a65b28de08a903cddcf2ea0feae341e61.js in Resources */ = {isa = PBXBuildFile; fileRef = 4C9177AB31E4B637A0FBDC89 /* style-3c578a2a65b28de08a903cddcf2ea0feae341e61.js */; };
+		2A0F3D2CC636DA3B7F33EE77 /* fastclick.js in Resources */ = {isa = PBXBuildFile; fileRef = 2F628D04C3FB1E4DE30B6E86 /* fastclick.js */; };
+		F509633D9832C86EF0EA9272 /* menes.js in Resources */ = {isa = PBXBuildFile; fileRef = 5E4153F3971EE11DCABF5038 /* menes.js */; };
+		7B7384276AA09EA9D7B1F3A6 /* appcache.js in Resources */ = {isa = PBXBuildFile; fileRef = 8BCA76FB97102C48FCD375FE /* appcache.js */; };
+		C0A7F7D9BC2B786959D799F7 /* localize.js in Resources */ = {isa = PBXBuildFile; fileRef = D159688AC91334C08DA60857 /* localize.js */; };
+		CE49E4FF6346C0AF746DE1E4 /* featured.js in Resources */ = {isa = PBXBuildFile; fileRef = 28AAE007F1AE0D2AFD34A57E /* featured.js */; };
+		105B4973BB04B52C0298A66C /* featured.png in Resources */ = {isa = PBXBuildFile; fileRef = B5EEE2512D257DDFF7056B36 /* featured.png */; };
+		8979955792E67E94EDE49717 /* themes.png in Resources */ = {isa = PBXBuildFile; fileRef = A62587228513AF763900627F /* themes.png */; };
+		A93744AA30B0BF35DD002292 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = BD495F13DDF97D1BA5688EAC /* facebook.png */; };
+		2D5204C910D3B3BEC302072D /* reddit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4964DFBEE041CBE4A2DADB0E /* reddit.png */; };
+		BB1196E7B723661D7FD01C19 /* com.aaronash.barrel.png in Resources */ = {isa = PBXBuildFile; fileRef = F8052F4F97045ADC787FB046 /* com.aaronash.barrel.png */; };
+		EFFEA3DC40B85C9B0B336C89 /* com.my3g.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F0643B8D0F31B2F16ACCE8 /* com.my3g.png */; };
+		83B31033B5C4B373616FE2B4 /* com.intelliborn.mywi6.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A8504953D320EFCB1632A0 /* com.intelliborn.mywi6.png */; };
+		A1AC842F8B2293130C9D4B16 /* com.chpwn.zephyr.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A8CF1C9AC5CC39C2A338AE1 /* com.chpwn.zephyr.png */; };
+		03101EEFE260392CEBE99A41 /* cydialer.png in Resources */ = {isa = PBXBuildFile; fileRef = 66DE475991B63B6E35DEC27F /* cydialer.png */; };
+		AF2E27D871C21796CC5B9DE6 /* cydia6.png in Resources */ = {isa = PBXBuildFile; fileRef = B4EE44E79534178C763A7C7F /* cydia6.png */; };
+		166E7652921716BBF1F993DE /* cydia7.png in Resources */ = {isa = PBXBuildFile; fileRef = 94C1C4FDBA44FA6E10BC004D /* cydia7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +52,24 @@
 		513970371DCD129500A0BCD7 /* ChangesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangesView.swift; sourceTree = "<group>"; };
 		513970391DCD12D600A0BCD7 /* SourcesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourcesView.swift; sourceTree = "<group>"; };
 		5139703B1DCD155000A0BCD7 /* TabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		09BE0F7AFFE25AB34662F40D /* style-f86cdff9d3d526e739afdf2d4ad8f494d10d4112.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style-f86cdff9d3d526e739afdf2d4ad8f494d10d4112.css; sourceTree = "<group>"; };
+		4C9177AB31E4B637A0FBDC89 /* style-3c578a2a65b28de08a903cddcf2ea0feae341e61.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = style-3c578a2a65b28de08a903cddcf2ea0feae341e61.js; sourceTree = "<group>"; };
+		2F628D04C3FB1E4DE30B6E86 /* fastclick.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = fastclick.js; sourceTree = "<group>"; };
+		5E4153F3971EE11DCABF5038 /* menes.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = menes.js; sourceTree = "<group>"; };
+		8BCA76FB97102C48FCD375FE /* appcache.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = appcache.js; sourceTree = "<group>"; };
+		D159688AC91334C08DA60857 /* localize.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = localize.js; sourceTree = "<group>"; };
+		28AAE007F1AE0D2AFD34A57E /* featured.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = featured.js; sourceTree = "<group>"; };
+		B5EEE2512D257DDFF7056B36 /* featured.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = featured.png; sourceTree = "<group>"; };
+		A62587228513AF763900627F /* themes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = themes.png; sourceTree = "<group>"; };
+		BD495F13DDF97D1BA5688EAC /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		4964DFBEE041CBE4A2DADB0E /* reddit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reddit.png; sourceTree = "<group>"; };
+		F8052F4F97045ADC787FB046 /* com.aaronash.barrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com.aaronash.barrel.png; sourceTree = "<group>"; };
+		14F0643B8D0F31B2F16ACCE8 /* com.my3g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com.my3g.png; sourceTree = "<group>"; };
+		73A8504953D320EFCB1632A0 /* com.intelliborn.mywi6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com.intelliborn.mywi6.png; sourceTree = "<group>"; };
+		0A8CF1C9AC5CC39C2A338AE1 /* com.chpwn.zephyr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = com.chpwn.zephyr.png; sourceTree = "<group>"; };
+		66DE475991B63B6E35DEC27F /* cydialer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cydialer.png; sourceTree = "<group>"; };
+		B4EE44E79534178C763A7C7F /* cydia6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cydia6.png; sourceTree = "<group>"; };
+		94C1C4FDBA44FA6E10BC004D /* cydia7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cydia7.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +87,24 @@
 			isa = PBXGroup;
 			children = (
 				305B95E91DF12CA6002F0F44 /* homepage.htm */,
+				09BE0F7AFFE25AB34662F40D /* style-f86cdff9d3d526e739afdf2d4ad8f494d10d4112.css */,
+				4C9177AB31E4B637A0FBDC89 /* style-3c578a2a65b28de08a903cddcf2ea0feae341e61.js */,
+				2F628D04C3FB1E4DE30B6E86 /* fastclick.js */,
+				5E4153F3971EE11DCABF5038 /* menes.js */,
+				8BCA76FB97102C48FCD375FE /* appcache.js */,
+				D159688AC91334C08DA60857 /* localize.js */,
+				28AAE007F1AE0D2AFD34A57E /* featured.js */,
+				B5EEE2512D257DDFF7056B36 /* featured.png */,
+				A62587228513AF763900627F /* themes.png */,
+				BD495F13DDF97D1BA5688EAC /* facebook.png */,
+				4964DFBEE041CBE4A2DADB0E /* reddit.png */,
+				F8052F4F97045ADC787FB046 /* com.aaronash.barrel.png */,
+				14F0643B8D0F31B2F16ACCE8 /* com.my3g.png */,
+				73A8504953D320EFCB1632A0 /* com.intelliborn.mywi6.png */,
+				0A8CF1C9AC5CC39C2A338AE1 /* com.chpwn.zephyr.png */,
+				66DE475991B63B6E35DEC27F /* cydialer.png */,
+				B4EE44E79534178C763A7C7F /* cydia6.png */,
+				94C1C4FDBA44FA6E10BC004D /* cydia7.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -153,6 +207,24 @@
 				510550C11DCCE878007DC036 /* LaunchScreen.storyboard in Resources */,
 				510550BE1DCCE878007DC036 /* Assets.xcassets in Resources */,
 				510550BC1DCCE878007DC036 /* Main.storyboard in Resources */,
+				C65BFCC044AA208E73DEA68B /* style-f86cdff9d3d526e739afdf2d4ad8f494d10d4112.css in Resources */,
+				192A56979D9053EF46B87A9B /* style-3c578a2a65b28de08a903cddcf2ea0feae341e61.js in Resources */,
+				2A0F3D2CC636DA3B7F33EE77 /* fastclick.js in Resources */,
+				F509633D9832C86EF0EA9272 /* menes.js in Resources */,
+				7B7384276AA09EA9D7B1F3A6 /* appcache.js in Resources */,
+				C0A7F7D9BC2B786959D799F7 /* localize.js in Resources */,
+				CE49E4FF6346C0AF746DE1E4 /* featured.js in Resources */,
+				105B4973BB04B52C0298A66C /* featured.png in Resources */,
+				8979955792E67E94EDE49717 /* themes.png in Resources */,
+				A93744AA30B0BF35DD002292 /* facebook.png in Resources */,
+				2D5204C910D3B3BEC302072D /* reddit.png in Resources */,
+				BB1196E7B723661D7FD01C19 /* com.aaronash.barrel.png in Resources */,
+				EFFEA3DC40B85C9B0B336C89 /* com.my3g.png in Resources */,
+				83B31033B5C4B373616FE2B4 /* com.intelliborn.mywi6.png in Resources */,
+				A1AC842F8B2293130C9D4B16 /* com.chpwn.zephyr.png in Resources */,
+				03101EEFE260392CEBE99A41 /* cydialer.png in Resources */,
+				AF2E27D871C21796CC5B9DE6 /* cydia6.png in Resources */,
+				166E7652921716BBF1F993DE /* cydia7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
